@@ -8,9 +8,10 @@
  */
 int main(void)
 {
-	char alp;
+	char alp[26] = "zyxwvutsrqponmlkjihgfedcba";
+	int i;
 
-	for (alp = 'z'; alp < 'a'; alp--)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alp);
 	}
