@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-	int i;
-	char alp[26] = "zyxwvutsrqponmlkjihgfedcba";
+	char alp;
 
-	for (i = 0; i < 26; i++)
+	for (alp = 'z'; alp < 'a'; alp--)
 	{
-		putchar(alp[i]);
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
